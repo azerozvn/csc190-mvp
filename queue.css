@@ -1,0 +1,54 @@
+.queue-helper {
+
+}
+
+.queue-heading {
+    margin-bottom: 20px;
+    margin-left: -40px;
+}
+
+.queue-group {
+    margin-top: 20px;
+}
+
+.queue-group .order-list {
+    margin-top: 0;
+}
+
+.group-heading {
+    display: inline-block;
+    padding: 6px 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgb(187, 186, 112)
+}
+
+.no-order {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.status {
+    color: #fff;
+}
+
+.status i {
+    margin-right: 3px;
+}
+
+.status.completed {
+    background: #28a745;
+}
+
+.status.unfulfilled {
+    background: #bd2130;
+}
+
+.status.on-the-way {
+    background: #d39e00;
+}
+
+.status.in-delivery {
+    background: #777;
+}
